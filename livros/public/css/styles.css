@@ -1,0 +1,71 @@
+/* public/css/styles.css */
+
+/* Estilo para a tabela */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o cabeçalho da tabela */
+.table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Estilo para as células da tabela */
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Estilo para as linhas ímpares da tabela */
+.table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para os botões de ação */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #3490dc;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2779bd;
+}
+
+/* Estilo para a paginação */
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #3490dc;
+    background-color: transparent;
+    border: 1px solid #3490dc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #3490dc;
+    color: #fff;
+    border-color: #3490dc;
+}

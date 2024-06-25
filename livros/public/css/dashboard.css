@@ -1,0 +1,47 @@
+/* Arquivo: resources/css/dashboard.css */
+
+/* Estilos gerais para a página de dashboard */
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    background-color: #c5a1e2;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.dashboard-content {
+    padding: 20px;
+}
+
+.book-list {
+    margin-top: 20px;
+}
+
+.book-item {
+    background-color: #9e5555;
+    border: 1px solid #992525;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.book-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.book-item p {
+    font-size: 14px;
+    color: #6bce3e;
+}

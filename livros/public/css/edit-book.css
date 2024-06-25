@@ -1,0 +1,36 @@
+/* edit-book.css */
+
+/* Estilo para o formulário de edição de livros */
+.form-input {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    width: 100%;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+/* Estilo para o botão de submit */
+.btn-submit {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1e4bb1;
+}
+
+/* Estilo para a imagem da capa do livro */
+.book-cover {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
